@@ -1,0 +1,167 @@
+.flexForm {
+  background-color: #0c131f;
+  height: 110vh;
+}
+
+.loginForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 6rem;
+  background-color: black;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px 1px rgb(12, 11, 11);
+}
+.loginForm div {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  text-align: center;
+}
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 7rem;
+}
+input {
+  width: 260px;
+  height: 23px;
+  background-color: rgb(252, 239, 215);
+  border: 1px solid rgb(238, 209, 155);
+  outline: none;
+  font-size: 1.1rem;
+}
+label {
+  color: rgb(151, 148, 148);
+  padding: 0.7rem;
+  font-size: 1.5rem;
+}
+.text {
+  color: white;
+  font-size: 2rem;
+  margin-top: -1rem;
+}
+.button {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  margin-top: 1.5rem;
+  background-color: #1e2530;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 1.7rem;
+}
+.button:hover {
+  background-color: #1a263b;
+}
+.error {
+  background-color: rgb(248, 170, 170);
+  border: 1.5px solid red;
+  /* border: 1px rgb(223, 41, 41) solid; */
+}
+.backendError {
+  color: red;
+  font-size: 0.9rem;
+}
+
+/* Media Queries for Smartphone */
+@media only screen and (max-width: 500px) {
+  .loginForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.7rem;
+    background-color: black;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px 1px rgb(12, 11, 11);
+  }
+  .loginForm div {
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    text-align: center;
+  }
+  .formContainer {
+    padding-top: 7.5rem;
+  }
+  input {
+    width: 230px;
+    height: 20px;
+    font-size: 0.95rem;
+  }
+  label {
+    padding: 0.7rem;
+    font-size: 1.3rem;
+  }
+  .text {
+    font-size: 1.7rem;
+    margin-top: -1rem;
+  }
+  .button {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.7rem;
+  }
+}
+/* Media Queries for Mid-Tier Tab */
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  .loginForm {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.7rem;
+    background-color: black;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px 1px rgb(12, 11, 11);
+  }
+  .loginForm div {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+  }
+  .formContainer {
+    padding-top: 7.5rem;
+  }
+  input {
+    width: 250px;
+    height: 20px;
+    font-size: 0.95rem;
+  }
+  label {
+    padding: 0.7rem;
+    font-size: 1.3rem;
+  }
+  .text {
+    font-size: 1.7rem;
+    margin-top: -1rem;
+  }
+  .button {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    margin-top: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1.7rem;
+  }
+}
+
+/* Media Queries for Tablet */
+@media only screen and (min-width: 769px) and (max-width: 968px) {
+}
+
+/* Media Queries for Laptop and Desktop */
+@media only screen and (min-width: 969px) and (max-width: 1200px) {
+}
+
+/* Media Queries for Large Desktop */
+@media only screen and (min-width: 1201px) {
+}

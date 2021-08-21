@@ -1,0 +1,148 @@
+.main {
+    background-color: #141c29;
+    height: 60px;
+    padding-top: 0.3rem;
+  }
+  
+  .profileHeading {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2rem;
+    margin-top: -0.4rem;
+  }
+  .links {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -3.65rem;
+  }
+  .link {
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+  }
+  .body {
+    height: 700px;
+    padding-top: 1rem;
+    background-color: #eceff1;
+  }
+  .button{
+    width: 90px;
+    height: 30px;
+    margin-top:0.7rem ;
+    margin-right: 1rem;
+    background-color: #FFA000;
+    border: 1px solid rgb(134, 90, 6);
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .button:hover{
+    background-color: #F57C00;
+  }
+
+  /* Media Queries for Smartphone */
+@media only screen and (max-width: 500px) {
+  .profileHeading {
+    font-size: 0.8rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 0.5rem;
+    margin-top: 0rem;
+  }
+  .heading{
+    font-size: 0rem;
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -2.3rem; */
+    margin-top: 0rem;
+  }
+  .link {
+    padding: 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+  }
+  .body {
+    height: 700px;
+    padding-top: 1rem;
+    background-color: #eceff1;
+  }
+  .button{
+    font-size: 0.9rem;
+    width: 70px;
+    height: 25px;
+    margin-top:0rem ;
+    margin-right: 0.9rem;
+    background-color: #FFA000;
+    border: 1px solid rgb(134, 90, 6);
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+}
+/* Media Queries for Mid-Tier Tab */
+@media only screen and (min-width: 501px) and (max-width: 768px) {  .profileHeading {
+  font-size: 0.8rem;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0.5rem;
+  margin-top: 0rem;
+}
+.heading{
+  font-size: 0rem;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: -2.3rem; */
+  margin-top: 0rem;
+}
+.link {
+  padding: 1.5rem;
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+}
+.body {
+  height: 700px;
+  padding-top: 1rem;
+  background-color: #eceff1;
+}
+.button{
+  font-size: 0.9rem;
+  width: 70px;
+  height: 25px;
+  margin-top:0rem ;
+  margin-right: 0.9rem;
+  background-color: #FFA000;
+  border: 1px solid rgb(134, 90, 6);
+  cursor: pointer;
+  font-weight: bold;
+}
+}
+
+/* Media Queries for Tablet */
+@media only screen and (min-width: 769px) and (max-width: 968px) {
+
+}
+
+/* Media Queries for Laptop and Desktop */
+@media only screen and (min-width: 969px) and (max-width: 1200px) {
+
+}
+
+/* Media Queries for Large Desktop */
+@media only screen and (min-width: 1201px) {
+    
+}
+  

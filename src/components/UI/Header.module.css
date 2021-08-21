@@ -1,0 +1,72 @@
+.header {
+  background-color: #ffa611;
+  height: 60px;
+}
+.logoText {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logoText .text {
+  padding-left: 1.5rem;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 0.7rem;
+}
+.rightContents {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: -3.4rem;
+}
+.rightContents .links {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  padding-top: 1.5rem;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+@media only screen and (max-width: 500px) {
+  .logoText .text {
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    padding-top: 1.2rem;
+  }
+  .rightContents {
+    margin-top: -2.75rem;
+  }
+  .rightContents .links {
+    font-size: 1rem;
+  }
+}
+/* Media Queries for Mid-Tier Tab */
+@media only screen and (min-width: 501px) and (max-width: 768px) {
+  .logoText .text {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    padding-top: 1.2rem;
+  }
+  .rightContents {
+    margin-top: -3.1rem;
+  }
+  .rightContents .links {
+    font-size: 1.1rem;
+  }
+}
+
+/* Media Queries for Tablet */
+@media only screen and (min-width: 769px) and (max-width: 968px) {
+}
+
+/* Media Queries for Laptop and Desktop */
+@media only screen and (min-width: 969px) and (max-width: 1200px) {
+}
+
+/* Media Queries for Large Desktop */
+@media only screen and (min-width: 1201px) {
+}
