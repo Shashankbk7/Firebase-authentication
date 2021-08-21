@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux";
 import { Actions } from "../../store/redux-store";
 
-const KEY = "AIzaSyDVofpQPqVwzjTAWaiQ_EknuP4oSZmeU0M";
+const KEY = "USE_YOUR_FIREBASE_KEY";
 const useHttp = () => {
   const dispatch = useDispatch();
 
